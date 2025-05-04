@@ -21,12 +21,12 @@
         
         <section class="chat">
             <section class="chat__messages">
-                <div class="message--self">Hello, World!</div>
+               <!---- <div class="message--self">Hello, World!</div>
 
                 <div class="message--other">
                     <span class="message--sender">Teste</span>
                     Olá, Mundo!
-                </div>
+                </div>  --->
             </section>
 
             <form class="chat__form">
@@ -35,6 +35,15 @@
                     <span class="material-symbols-outlined">arrow_right_alt</span>
                 </button>
             </form>
+
+            <div class="chat__video">
+                <button class="chat__video-button" aria-required="false">🎥</button>
+                <video class="chat__video-preview" autoplay muted style="display: none;"></video>
+                <button class="chat__send-video-button" style="display: none;">Enviar vídeo</button>
+                <button class="chat__cancel-video-button" style="display: none;">Cancelar</button>
+            </div>
+
+
         </section>
     </section>
 
